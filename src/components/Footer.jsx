@@ -4,7 +4,7 @@ function Footer() {
       <div className="footer-copyright">
         <div className="container">
           © {new Date().getFullYear()} Copyright Text
-          <a className="grey-text text-lighten-4 right" href="https://github.com/AnastasiiaKuropatkina/recipe-book-app" target='_blank' rel="noreferrer">
+          <a className="grey-text text-lighten-4 right" href="https://github.com/AnastasiiaKuropatkina/Recipe-Book-App" target='_blank' rel="noreferrer">
             More Links
           </a>
         </div>
