@@ -1,70 +1,82 @@
-# Getting Started with Create React App
+# Recipe Book - React Course Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Recipe Book is a **Single Page Application (SPA)** built using React, React Hooks, Fetch API, React Router, and Materialize. This project demonstrates how to work with APIs and routing in a React-based multi-page application.
 
-## Available Scripts
+## Table of Contents
+- [Description](#description)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [API](#api)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
-In the project directory, you can run:
+## Description
 
-### `npm start`
+The **Recipe Book** project is a multi-page web application built with React and React Router 6.2. It allows users to browse and search for food recipes, view recipes in different categories, and see detailed information about individual dishes.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This project uses **TheMealDB** API to fetch data about food categories, meals in each category, and specific meal details.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features
 
-### `npm test`
+- **Routing with React Router**: Multi-page navigation including:
+  - Main page with categories of dishes
+  - Page displaying meals in a selected category
+  - Recipe detail page with detailed information about each meal
+- **API Integration**: Fetches data from [TheMealDB API](https://www.themealdb.com/api.php).
+- **Search Functionality**: Search for meals by category name on the main page.
+- **Responsive Design**: Styled with Materialize CSS for a sleek and responsive user interface.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Technologies Used
 
-### `npm run build`
+- **React**: For building the user interface and managing component states using React Hooks (`useState`, `useEffect`).
+- **React Router v6.2**: For creating a multi-page navigation system within the SPA.
+- **Fetch API**: For making HTTP requests to TheMealDB API.
+- **Materialize CSS**: For responsive and modern UI design.
+- **JavaScript (ES6)**: Modern syntax and practices in JavaScript for building the app logic.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## API
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The app integrates with [TheMealDB](https://www.themealdb.com/api.php), a free API providing information on meal categories, recipes, and ingredients.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **API Base URL**: `https://www.themealdb.com/api/json/v1/1/`
+- Endpoints used:
+  - Categories: `/categories.php`
+  - Meals by category: `/filter.php?c={category_name}`
+  - Meal details by ID: `/lookup.php?i={meal_id}`
 
-### `npm run eject`
+## Installation
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/yourusername/recipe-book-react.git
+   cd recipe-book-react
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. **Install dependencies**:
+   ```bash
+   npm install
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+3. **Start the development server**:
+   ```bash
+   npm start
+   ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+4. **Open your browser** and go to `http://localhost:3000` to view the app.
 
-## Learn More
+## Usage
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Browse the main page to view a list of meal categories.
+- Click on a category to view all meals within that category.
+- Click on a meal to see its recipe and detailed information, including ingredients and instructions.
+- Use the search bar to search for meal categories by name.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Contributing
 
-### Code Splitting
+Contributions are welcome! Please feel free to submit a Pull Request or open an issue for suggestions and improvements.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## License
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is open-source and available under the [MIT License](LICENSE).

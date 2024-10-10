@@ -8,7 +8,7 @@ function Header() {
             <Link className="nav-mobile-link" to="/about">About</Link>
             <Link className="nav-mobile-link" to="/contact">Contact</Link>
 
-            <Link  className="nav-mobile-link" to="https://github.com/AnastasiiaKuropatkina/Recipe-Book-App" target='_blank' rel="noreferrer">Repo</Link>
+            <Link  className="nav-mobile-link" to="https://github.com/AnastasiiaKuropatkina/recipe-book-app" target='_blank' rel="noreferrer">Repo</Link>
         </header>
         </div>
     </nav>

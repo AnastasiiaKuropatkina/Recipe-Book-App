@@ -35,3 +35,17 @@ code {
 .card-content {
     flex-grow: 1;
 }
+img, iframe {
+    width: 100%;
+    height: auto;
+}
+iframe {
+    width: 600px;
+    height: 350px;
+}
+.page-footer {
+    padding-top: 0 ;
+}
+.recipe h6 {
+    margin: 2rem 0 1,5rem;
+}
