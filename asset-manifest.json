@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/AnastasiiaKuropatkina.github.io/recipe-book-app/static/css/main.dd9582eb.css",
-    "main.js": "/AnastasiiaKuropatkina.github.io/recipe-book-app/static/js/main.f99bad09.js",
-    "index.html": "/AnastasiiaKuropatkina.github.io/recipe-book-app/index.html",
-    "main.dd9582eb.css.map": "/AnastasiiaKuropatkina.github.io/recipe-book-app/static/css/main.dd9582eb.css.map",
-    "main.f99bad09.js.map": "/AnastasiiaKuropatkina.github.io/recipe-book-app/static/js/main.f99bad09.js.map"
+    "main.css": "/AnastasiiaKuropatkina.github.io/Recipe-Book-App/static/css/main.dd9582eb.css",
+    "main.js": "/AnastasiiaKuropatkina.github.io/Recipe-Book-App/static/js/main.0e4e531b.js",
+    "index.html": "/AnastasiiaKuropatkina.github.io/Recipe-Book-App/index.html",
+    "main.dd9582eb.css.map": "/AnastasiiaKuropatkina.github.io/Recipe-Book-App/static/css/main.dd9582eb.css.map",
+    "main.0e4e531b.js.map": "/AnastasiiaKuropatkina.github.io/Recipe-Book-App/static/js/main.0e4e531b.js.map"
   },
   "entrypoints": [
     "static/css/main.dd9582eb.css",
-    "static/js/main.f99bad09.js"
+    "static/js/main.0e4e531b.js"
   ]
 }
